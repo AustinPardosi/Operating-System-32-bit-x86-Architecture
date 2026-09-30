@@ -188,7 +188,7 @@ void initScreen() {
     put("            | |                                                              \n", BIOS_LIGHT_GREEN);
     put("            |_|                                                              \n", BIOS_LIGHT_GREEN);
     put("                          ApaGaKeOS - version 1.0.0\n", BIOS_LIGHT_GREEN);
-    put("      GitHub repository: https://github.com/Sister20/if2230-2023-apagakeos \n\n", BIOS_LIGHT_GREEN);
+    put("       github.com/AustinPardosi/Operating-System-32-bit-x86-Architecture\n\n", BIOS_LIGHT_GREEN);
     put("                                  WELCOME!\n", BIOS_LIGHT_GREEN);
     put("                      Press enter to get started\n\n", BIOS_LIGHT_GREEN);
 }

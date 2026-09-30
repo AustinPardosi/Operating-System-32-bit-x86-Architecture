@@ -21,7 +21,7 @@ LFLAGS        = -T $(SOURCE_FOLDER)/linker.ld -melf_i386
 ISOFLAGS	  = -no-emul-boot -boot-load-size 4 -A os -input-charset utf8 -quiet -boot-info-table
 
 run: all
-	@qemu-system-i386 -s -S -drive file=bin/storage.bin,format=raw,if=ide,index=0,media=disk -cdrom bin/os2023.iso
+	@qemu-system-i386 -s -S -drive file=bin/storage.bin,format=raw,if=ide,index=0,media=disk -cdrom bin/$(ISO_NAME)
 	
 all: build
 
